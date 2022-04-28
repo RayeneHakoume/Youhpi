@@ -1,0 +1,5 @@
+Europe
+0 Norvege C'est un pays scandinave comprenant montagnes, glaciers et fjords cotiers profonds. Oslo, la capitale, regorge d'espaces verts et de musees.
+1 Espagne C'est un beau  pays  ayant un  littoral, des paysages diversifies, un heritage historique, une  culture vibrante.
+2 France  C'est un pays possedant une grande variete de paysages, avec des plaines agricoles ou boisees, des chaines de montagnes plus ou moins erodees, des littoraux diversifies et des vallees melant ville et nature.
+

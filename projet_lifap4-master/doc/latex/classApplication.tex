@@ -1,0 +1,421 @@
+\hypertarget{classApplication}{}\section{Application Class Reference}
+\label{classApplication}\index{Application@{Application}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classApplication_afa8cc05ce6b6092be5ecdfdae44e05f8}{Application}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classApplication_a748bca84fefb9c12661cfaa2f623748d}{$\sim$\+Application}} ()
+\begin{DoxyCompactList}\small\item\em Destructeur par defaut. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classApplication_a6baa8aeba1769eff0317a1f6f71e3214}{getnb\+Total\+Pays}} ()
+\begin{DoxyCompactList}\small\item\em accesseur permettant de consulter le nombre total de pays \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_aa9589204b2581285fb77305336157f41}{setnb\+Total\+Pays}} (int nb\+TP)
+\begin{DoxyCompactList}\small\item\em mutateur permettant de modifier le nombre total de pays \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classApplication_a09d48311fef35f79eda8fa9f416419ba}{getnb\+Total\+Monuments}} ()
+\begin{DoxyCompactList}\small\item\em accesseur permettant de consulter le nombre total de monuments \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a599b62d5ca85941b3e7c0a875bdaf597}{setnb\+Total\+Monuments}} (int nb\+TM)
+\begin{DoxyCompactList}\small\item\em mutateur permettant de modifier le nombre total de monuments \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_abb9ab6a6da3b1a9507f54f840f76c49a}{choix\+Continent}} (int idC)
+\begin{DoxyCompactList}\small\item\em Procedure qui permet de choisir un \mbox{\hyperlink{classContinent}{Continent}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_ad97ca1de74ed23722ec368c93f456c27}\label{classApplication_ad97ca1de74ed23722ec368c93f456c27}} 
+void \mbox{\hyperlink{classApplication_ad97ca1de74ed23722ec368c93f456c27}{choix\+Pays}} ()
+\begin{DoxyCompactList}\small\item\em Procedure qui permet de choisir un \mbox{\hyperlink{classPays}{Pays}}. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_aefd57299e960a16742498bae3c7f4cb7}\label{classApplication_aefd57299e960a16742498bae3c7f4cb7}} 
+void \mbox{\hyperlink{classApplication_aefd57299e960a16742498bae3c7f4cb7}{afficher\+Continent}} ()
+\begin{DoxyCompactList}\small\item\em Procedure qui permet d\textquotesingle{}afficher tous les continents. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_ad389917e23b9a2b5e0d8f6c289a29636}{afficher\+Pays}} (int id\+Cont)
+\begin{DoxyCompactList}\small\item\em Procedure qui permet d\textquotesingle{}afficher les pays du continent choisi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a06a73aef74373d2ccaa83e41c96c2186}{afficher\+Info\+Pays}} (int id\+Cont, int id\+Pays)
+\begin{DoxyCompactList}\small\item\em Procedure qui permet d\textquotesingle{}afficher une breve description du pays choisi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a43ea91e577e930b2adc6071e4c2f22f2}{afficher\+Info\+Monument}} (int id\+Cont, int id\+Pays, int id\+Mon)
+\begin{DoxyCompactList}\small\item\em Procedure qui permet d\textquotesingle{}afficher une breve description du monument choisi. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a2fb53196b87168696454d18a463d2c92}{afficher\+Monument}} (int id\+Cont, int id\+Pays)
+\begin{DoxyCompactList}\small\item\em Procedure qui permet d\textquotesingle{}afficher les monuments repertories du pays choisi. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_a0c61f5c0f6f82fd0b7f8993982d3e5b4}\label{classApplication_a0c61f5c0f6f82fd0b7f8993982d3e5b4}} 
+void \mbox{\hyperlink{classApplication_a0c61f5c0f6f82fd0b7f8993982d3e5b4}{Menu}} ()
+\begin{DoxyCompactList}\small\item\em Procedure qui permet de gerer un menu. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_a4d007a0dda6e08f1c8923b84d9b2ed7a}\label{classApplication_a4d007a0dda6e08f1c8923b84d9b2ed7a}} 
+void \mbox{\hyperlink{classApplication_a4d007a0dda6e08f1c8923b84d9b2ed7a}{Boucle}} ()
+\begin{DoxyCompactList}\small\item\em Procedure qui contient une boucle evenementielle pour visiter nos monuments. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_ac456d8d3a4e1946ef9bc52ab51274934}\label{classApplication_ac456d8d3a4e1946ef9bc52ab51274934}} 
+void \mbox{\hyperlink{classApplication_ac456d8d3a4e1946ef9bc52ab51274934}{Boucle2}} ()
+\begin{DoxyCompactList}\small\item\em Procedure qui contient une boucle evenementielle pour ajouter un monument. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_aa2f2c524c18275ceca3d70b60ba3e080}{parcours\+Continent}} (int \&idC)
+\begin{DoxyCompactList}\small\item\em Procedure pour la saisie du continent. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a33e1c4a754197d03776f3f991a4ac668}{parcours\+Pays}} (int idC, int idP)
+\begin{DoxyCompactList}\small\item\em Procedure pour la saisie du pays. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_afb7b5692b1dc9480c5eca596022334ce}\label{classApplication_afb7b5692b1dc9480c5eca596022334ce}} 
+void \mbox{\hyperlink{classApplication_afb7b5692b1dc9480c5eca596022334ce}{parcours\+Monument}} (int idC, int idP)
+\begin{DoxyCompactList}\small\item\em Procedure pour la saisie du monument. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_ae9a18faaa03e0a88509d447f0d0a56d0}{ajouter\+Pays}} (int id\+Cont)
+\begin{DoxyCompactList}\small\item\em Procedure permettant d\textquotesingle{}ajouter un \mbox{\hyperlink{classPays}{Pays}}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a72844a6e6746a2dbacb9c47a9d5f3a0e}{ajouter\+Monument}} (int idC, int id\+Pays)
+\begin{DoxyCompactList}\small\item\em Procedure permettant d\textquotesingle{}ajouter un monument. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a8fe7f986f9edd0a225a4de2e814de637}{ajouter}} (int idC)
+\begin{DoxyCompactList}\small\item\em Procedure permettant d\textquotesingle{}ajouter un monument ou un pays non repertories. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classApplication_ad2ef1ff3d36ca8f7f95ca2e695004cd0}{stringto\+Chaineto\+String}} (string str)
+\begin{DoxyCompactList}\small\item\em Fonction permettant de transformer un string un chaine de caracteres. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a44e62e10bc2a6b4f553befc91b16af9f}{Liker}} (int idC, int idP, int idM)
+\begin{DoxyCompactList}\small\item\em Procedure permettant de Liker. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_ad1c7db0f693e9bd8006a98daad5877f3}{Afficher\+Like}} (int idC, int idP, int idM)
+\begin{DoxyCompactList}\small\item\em Procedure permettant d\textquotesingle{}afficher les likes. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_a5eeec96b595e130e60303ef5511a5453}{lien}} (int idM)
+\begin{DoxyCompactList}\small\item\em Procedure permettant de se rediriger vers une page Web. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_a2a0ccf1a0d3012f198dbd16cb8e64544}\label{classApplication_a2a0ccf1a0d3012f198dbd16cb8e64544}} 
+const char $\ast$ \mbox{\hyperlink{classApplication_a2a0ccf1a0d3012f198dbd16cb8e64544}{mois\+Annee}} ()
+\begin{DoxyCompactList}\small\item\em Fonction qui retourne le mois et l\textquotesingle{}annee. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_a152fe7a60d97157416b7c0bbb32091aa}\label{classApplication_a152fe7a60d97157416b7c0bbb32091aa}} 
+void \mbox{\hyperlink{classApplication_a152fe7a60d97157416b7c0bbb32091aa}{Selection}} ()
+\begin{DoxyCompactList}\small\item\em Procedure qui selectionne des monuments à visiter selon les saisons. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classApplication_ad7024c724b0fe7d0914333b19930b5a4}\label{classApplication_ad7024c724b0fe7d0914333b19930b5a4}} 
+void \mbox{\hyperlink{classApplication_ad7024c724b0fe7d0914333b19930b5a4}{voir\+Selection}} ()
+\begin{DoxyCompactList}\small\item\em Procedure qui suggere a l\textquotesingle{}utilisateur des monuments à visiter selon les saisons. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classApplication_ae06346cc3d7322980a99d0c641b201f8}{afficher\+Monument\+Lamba}} (int id\+Cont, int id\+Pays, int idM)
+\begin{DoxyCompactList}\small\item\em Procedure qui affiche un monument lambda selon les identifiants. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCarte}{Carte}} \mbox{\hyperlink{classApplication_af5ca55b7d57073399f76843231c98b6f}{carte}}
+\begin{DoxyCompactList}\small\item\em fonctions membres \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classApplication_afa8cc05ce6b6092be5ecdfdae44e05f8}\label{classApplication_afa8cc05ce6b6092be5ecdfdae44e05f8}} 
+\index{Application@{Application}!Application@{Application}}
+\index{Application@{Application}!Application@{Application}}
+\subsubsection{\texorpdfstring{Application()}{Application()}}
+{\footnotesize\ttfamily Application\+::\+Application (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructeur par defaut. 
+
+Initialisation du nombre de pays au total et le nombre de monuments au total
+
+declaration de liens\+: \mbox{\Hypertarget{classApplication_a748bca84fefb9c12661cfaa2f623748d}\label{classApplication_a748bca84fefb9c12661cfaa2f623748d}} 
+\index{Application@{Application}!````~Application@{$\sim$\+Application}}
+\index{````~Application@{$\sim$\+Application}!Application@{Application}}
+\subsubsection{\texorpdfstring{$\sim$\+Application()}{~Application()}}
+{\footnotesize\ttfamily Application\+::$\sim$\+Application (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructeur par defaut. 
+
+Destructeur. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classApplication_a43ea91e577e930b2adc6071e4c2f22f2}\label{classApplication_a43ea91e577e930b2adc6071e4c2f22f2}} 
+\index{Application@{Application}!afficher\+Info\+Monument@{afficher\+Info\+Monument}}
+\index{afficher\+Info\+Monument@{afficher\+Info\+Monument}!Application@{Application}}
+\subsubsection{\texorpdfstring{afficher\+Info\+Monument()}{afficherInfoMonument()}}
+{\footnotesize\ttfamily void Application\+::afficher\+Info\+Monument (\begin{DoxyParamCaption}\item[{int}]{id\+Cont,  }\item[{int}]{id\+Pays,  }\item[{int}]{id\+Mon }\end{DoxyParamCaption})}
+
+
+
+Procedure qui permet d\textquotesingle{}afficher une breve description du monument choisi. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Pays,id\+Mon} & entiers \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_a06a73aef74373d2ccaa83e41c96c2186}\label{classApplication_a06a73aef74373d2ccaa83e41c96c2186}} 
+\index{Application@{Application}!afficher\+Info\+Pays@{afficher\+Info\+Pays}}
+\index{afficher\+Info\+Pays@{afficher\+Info\+Pays}!Application@{Application}}
+\subsubsection{\texorpdfstring{afficher\+Info\+Pays()}{afficherInfoPays()}}
+{\footnotesize\ttfamily void Application\+::afficher\+Info\+Pays (\begin{DoxyParamCaption}\item[{int}]{id\+Cont,  }\item[{int}]{id\+Pays }\end{DoxyParamCaption})}
+
+
+
+Procedure qui permet d\textquotesingle{}afficher une breve description du pays choisi. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Pays} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_ad1c7db0f693e9bd8006a98daad5877f3}\label{classApplication_ad1c7db0f693e9bd8006a98daad5877f3}} 
+\index{Application@{Application}!Afficher\+Like@{Afficher\+Like}}
+\index{Afficher\+Like@{Afficher\+Like}!Application@{Application}}
+\subsubsection{\texorpdfstring{Afficher\+Like()}{AfficherLike()}}
+{\footnotesize\ttfamily void Application\+::\+Afficher\+Like (\begin{DoxyParamCaption}\item[{int}]{idC,  }\item[{int}]{idP,  }\item[{int}]{idM }\end{DoxyParamCaption})}
+
+
+
+Procedure permettant d\textquotesingle{}afficher les likes. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Continent,id\+Pays,id\+Monuments} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_a2fb53196b87168696454d18a463d2c92}\label{classApplication_a2fb53196b87168696454d18a463d2c92}} 
+\index{Application@{Application}!afficher\+Monument@{afficher\+Monument}}
+\index{afficher\+Monument@{afficher\+Monument}!Application@{Application}}
+\subsubsection{\texorpdfstring{afficher\+Monument()}{afficherMonument()}}
+{\footnotesize\ttfamily void Application\+::afficher\+Monument (\begin{DoxyParamCaption}\item[{int}]{id\+Cont,  }\item[{int}]{id\+Pays }\end{DoxyParamCaption})}
+
+
+
+Procedure qui permet d\textquotesingle{}afficher les monuments repertories du pays choisi. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Cont,id\+Pays} & entiers \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_ae06346cc3d7322980a99d0c641b201f8}\label{classApplication_ae06346cc3d7322980a99d0c641b201f8}} 
+\index{Application@{Application}!afficher\+Monument\+Lamba@{afficher\+Monument\+Lamba}}
+\index{afficher\+Monument\+Lamba@{afficher\+Monument\+Lamba}!Application@{Application}}
+\subsubsection{\texorpdfstring{afficher\+Monument\+Lamba()}{afficherMonumentLamba()}}
+{\footnotesize\ttfamily void Application\+::afficher\+Monument\+Lamba (\begin{DoxyParamCaption}\item[{int}]{id\+Cont,  }\item[{int}]{id\+Pays,  }\item[{int}]{idM }\end{DoxyParamCaption})}
+
+
+
+Procedure qui affiche un monument lambda selon les identifiants. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Continent,id\+Pays,id\+Monuments} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_ad389917e23b9a2b5e0d8f6c289a29636}\label{classApplication_ad389917e23b9a2b5e0d8f6c289a29636}} 
+\index{Application@{Application}!afficher\+Pays@{afficher\+Pays}}
+\index{afficher\+Pays@{afficher\+Pays}!Application@{Application}}
+\subsubsection{\texorpdfstring{afficher\+Pays()}{afficherPays()}}
+{\footnotesize\ttfamily void Application\+::afficher\+Pays (\begin{DoxyParamCaption}\item[{int}]{id\+Cont }\end{DoxyParamCaption})}
+
+
+
+Procedure qui permet d\textquotesingle{}afficher les pays du continent choisi. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Cont} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_a8fe7f986f9edd0a225a4de2e814de637}\label{classApplication_a8fe7f986f9edd0a225a4de2e814de637}} 
+\index{Application@{Application}!ajouter@{ajouter}}
+\index{ajouter@{ajouter}!Application@{Application}}
+\subsubsection{\texorpdfstring{ajouter()}{ajouter()}}
+{\footnotesize\ttfamily void Application\+::ajouter (\begin{DoxyParamCaption}\item[{int}]{idC }\end{DoxyParamCaption})}
+
+
+
+Procedure permettant d\textquotesingle{}ajouter un monument ou un pays non repertories. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Continent} & entier \\
+\hline
+\end{DoxyParams}
+Declaration de variables\+: \mbox{\Hypertarget{classApplication_a72844a6e6746a2dbacb9c47a9d5f3a0e}\label{classApplication_a72844a6e6746a2dbacb9c47a9d5f3a0e}} 
+\index{Application@{Application}!ajouter\+Monument@{ajouter\+Monument}}
+\index{ajouter\+Monument@{ajouter\+Monument}!Application@{Application}}
+\subsubsection{\texorpdfstring{ajouter\+Monument()}{ajouterMonument()}}
+{\footnotesize\ttfamily void Application\+::ajouter\+Monument (\begin{DoxyParamCaption}\item[{int}]{idC,  }\item[{int}]{id\+Pays }\end{DoxyParamCaption})}
+
+
+
+Procedure permettant d\textquotesingle{}ajouter un monument. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Pays} & entier \\
+\hline
+\end{DoxyParams}
+Declaration des variables
+
+Ecriture de l\textquotesingle{}id du monument dans le fichier\+:
+
+Saisie et Ecriture du nom du monument dans le fichier\+:
+
+Saisie et Ecriture de l\textquotesingle{}info du monument dans le fichier\+: \mbox{\Hypertarget{classApplication_ae9a18faaa03e0a88509d447f0d0a56d0}\label{classApplication_ae9a18faaa03e0a88509d447f0d0a56d0}} 
+\index{Application@{Application}!ajouter\+Pays@{ajouter\+Pays}}
+\index{ajouter\+Pays@{ajouter\+Pays}!Application@{Application}}
+\subsubsection{\texorpdfstring{ajouter\+Pays()}{ajouterPays()}}
+{\footnotesize\ttfamily void Application\+::ajouter\+Pays (\begin{DoxyParamCaption}\item[{int}]{id\+Cont }\end{DoxyParamCaption})}
+
+
+
+Procedure permettant d\textquotesingle{}ajouter un \mbox{\hyperlink{classPays}{Pays}}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Cont} & entier \\
+\hline
+\end{DoxyParams}
+Declaration des variables
+
+Ecriture de l\textquotesingle{}id du pays dans le fichier\+:
+
+Saisie et Ecriture du nom du pays dans le fichier\+:
+
+Saisie et Ecriture de l\textquotesingle{}info du pays dans le fichier\+: \mbox{\Hypertarget{classApplication_abb9ab6a6da3b1a9507f54f840f76c49a}\label{classApplication_abb9ab6a6da3b1a9507f54f840f76c49a}} 
+\index{Application@{Application}!choix\+Continent@{choix\+Continent}}
+\index{choix\+Continent@{choix\+Continent}!Application@{Application}}
+\subsubsection{\texorpdfstring{choix\+Continent()}{choixContinent()}}
+{\footnotesize\ttfamily void Application\+::choix\+Continent (\begin{DoxyParamCaption}\item[{int}]{idC }\end{DoxyParamCaption})}
+
+
+
+Procedure qui permet de choisir un \mbox{\hyperlink{classContinent}{Continent}}. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em idC} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_a09d48311fef35f79eda8fa9f416419ba}\label{classApplication_a09d48311fef35f79eda8fa9f416419ba}} 
+\index{Application@{Application}!getnb\+Total\+Monuments@{getnb\+Total\+Monuments}}
+\index{getnb\+Total\+Monuments@{getnb\+Total\+Monuments}!Application@{Application}}
+\subsubsection{\texorpdfstring{getnb\+Total\+Monuments()}{getnbTotalMonuments()}}
+{\footnotesize\ttfamily int Application\+::getnb\+Total\+Monuments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+accesseur permettant de consulter le nombre total de monuments 
+
+\begin{DoxyReturn}{Returns}
+le nombre total de pays (entier) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classApplication_a6baa8aeba1769eff0317a1f6f71e3214}\label{classApplication_a6baa8aeba1769eff0317a1f6f71e3214}} 
+\index{Application@{Application}!getnb\+Total\+Pays@{getnb\+Total\+Pays}}
+\index{getnb\+Total\+Pays@{getnb\+Total\+Pays}!Application@{Application}}
+\subsubsection{\texorpdfstring{getnb\+Total\+Pays()}{getnbTotalPays()}}
+{\footnotesize\ttfamily int Application\+::getnb\+Total\+Pays (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+accesseur permettant de consulter le nombre total de pays 
+
+\begin{DoxyReturn}{Returns}
+le nombre total de pays (entier) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classApplication_a5eeec96b595e130e60303ef5511a5453}\label{classApplication_a5eeec96b595e130e60303ef5511a5453}} 
+\index{Application@{Application}!lien@{lien}}
+\index{lien@{lien}!Application@{Application}}
+\subsubsection{\texorpdfstring{lien()}{lien()}}
+{\footnotesize\ttfamily void Application\+::lien (\begin{DoxyParamCaption}\item[{int}]{idM }\end{DoxyParamCaption})}
+
+
+
+Procedure permettant de se rediriger vers une page Web. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Monuments} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_a44e62e10bc2a6b4f553befc91b16af9f}\label{classApplication_a44e62e10bc2a6b4f553befc91b16af9f}} 
+\index{Application@{Application}!Liker@{Liker}}
+\index{Liker@{Liker}!Application@{Application}}
+\subsubsection{\texorpdfstring{Liker()}{Liker()}}
+{\footnotesize\ttfamily void Application\+::\+Liker (\begin{DoxyParamCaption}\item[{int}]{idC,  }\item[{int}]{idP,  }\item[{int}]{idM }\end{DoxyParamCaption})}
+
+
+
+Procedure permettant de Liker. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em id\+Continent,id\+Pays,id\+Monuments} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_aa2f2c524c18275ceca3d70b60ba3e080}\label{classApplication_aa2f2c524c18275ceca3d70b60ba3e080}} 
+\index{Application@{Application}!parcours\+Continent@{parcours\+Continent}}
+\index{parcours\+Continent@{parcours\+Continent}!Application@{Application}}
+\subsubsection{\texorpdfstring{parcours\+Continent()}{parcoursContinent()}}
+{\footnotesize\ttfamily void Application\+::parcours\+Continent (\begin{DoxyParamCaption}\item[{int \&}]{idC }\end{DoxyParamCaption})}
+
+
+
+Procedure pour la saisie du continent. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em idC} & entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_a33e1c4a754197d03776f3f991a4ac668}\label{classApplication_a33e1c4a754197d03776f3f991a4ac668}} 
+\index{Application@{Application}!parcours\+Pays@{parcours\+Pays}}
+\index{parcours\+Pays@{parcours\+Pays}!Application@{Application}}
+\subsubsection{\texorpdfstring{parcours\+Pays()}{parcoursPays()}}
+{\footnotesize\ttfamily void Application\+::parcours\+Pays (\begin{DoxyParamCaption}\item[{int}]{idC,  }\item[{int}]{idP }\end{DoxyParamCaption})}
+
+
+
+Procedure pour la saisie du pays. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em idP,idC} & entiers \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_a599b62d5ca85941b3e7c0a875bdaf597}\label{classApplication_a599b62d5ca85941b3e7c0a875bdaf597}} 
+\index{Application@{Application}!setnb\+Total\+Monuments@{setnb\+Total\+Monuments}}
+\index{setnb\+Total\+Monuments@{setnb\+Total\+Monuments}!Application@{Application}}
+\subsubsection{\texorpdfstring{setnb\+Total\+Monuments()}{setnbTotalMonuments()}}
+{\footnotesize\ttfamily void Application\+::setnb\+Total\+Monuments (\begin{DoxyParamCaption}\item[{int}]{nb\+TM }\end{DoxyParamCaption})}
+
+
+
+mutateur permettant de modifier le nombre total de monuments 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em le} & nombre total de monuments\+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_aa9589204b2581285fb77305336157f41}\label{classApplication_aa9589204b2581285fb77305336157f41}} 
+\index{Application@{Application}!setnb\+Total\+Pays@{setnb\+Total\+Pays}}
+\index{setnb\+Total\+Pays@{setnb\+Total\+Pays}!Application@{Application}}
+\subsubsection{\texorpdfstring{setnb\+Total\+Pays()}{setnbTotalPays()}}
+{\footnotesize\ttfamily void Application\+::setnb\+Total\+Pays (\begin{DoxyParamCaption}\item[{int}]{nb\+TP }\end{DoxyParamCaption})}
+
+
+
+mutateur permettant de modifier le nombre total de pays 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em le} & nombre total de pays\+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classApplication_ad2ef1ff3d36ca8f7f95ca2e695004cd0}\label{classApplication_ad2ef1ff3d36ca8f7f95ca2e695004cd0}} 
+\index{Application@{Application}!stringto\+Chaineto\+String@{stringto\+Chaineto\+String}}
+\index{stringto\+Chaineto\+String@{stringto\+Chaineto\+String}!Application@{Application}}
+\subsubsection{\texorpdfstring{stringto\+Chaineto\+String()}{stringtoChainetoString()}}
+{\footnotesize\ttfamily string Application\+::stringto\+Chaineto\+String (\begin{DoxyParamCaption}\item[{string}]{str }\end{DoxyParamCaption})}
+
+
+
+Fonction permettant de transformer un string un chaine de caracteres. 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em str} & string \\
+\hline
+\end{DoxyParams}
+Declaration des variables\+:
+
+On va donc remplacer les espaces par des traits du huit 
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classApplication_af5ca55b7d57073399f76843231c98b6f}\label{classApplication_af5ca55b7d57073399f76843231c98b6f}} 
+\index{Application@{Application}!carte@{carte}}
+\index{carte@{carte}!Application@{Application}}
+\subsubsection{\texorpdfstring{carte}{carte}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classCarte}{Carte}} Application\+::carte}
+
+
+
+fonctions membres 
+
+une \mbox{\hyperlink{classCarte}{Carte}} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Application.\+h\item 
+src/Application.\+cpp\end{DoxyCompactItemize}

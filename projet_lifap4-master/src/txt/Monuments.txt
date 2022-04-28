@@ -1,0 +1,55 @@
+0 
+1 Sailor's Monument  Ce monument sur l'histoire de la marine est assez impressionnant avec toutes ses statues et ses quatre tableaux en relief.
+2 Tjuvholmen Sculpture Ce monument incontournable situe a Oslo connue pour la diversite et la beaute des status ainsi que la serenite des lieux.
+1
+3 Mosquee-cathedrale de Cordoue Ce monument religieux considere comme incontournable si vous etes de passages en Espagne. Lieu magnifique et insolite ensemble architectural dans lequel une cathedrale a ete batie au centre d'une mosquee. 
+4 Basilique de la Sagrada Familia C'est le monument le plus connu et le plus emblematique de Barcelone. Des milliers de touristes s’y rendent chaque jour pour contempler ce curieux temple inacheve.
+2
+5 Tour effeil C'est une tour de fer puddle de 324 metres de hauteur situee a Paris, a l’extremite nord-ouest du parc du Champ-de-Mars en bordure de la Seine dans le 7ᵉ arrondissement. C'est le monument le plus populaire au monde. 
+6 Arc de triomphe  Ce monument est, comme la Tour Eiffel, l’un des monuments les plus emblematiques de Paris. Mesurant 50 metres de haut, 22 metres de large et 45 metres de long, l’Arc de Triomphe est le symbole des victoires de l’armee francaise sous l’Empire de Napoleon.
+3 
+7 Puputan Monument Ce monument commemorant le "Puputan" de 1908, c'est-a-dire, le suicide collectif des forces de la principalite de Klungkung face a la force numerique et la force de tir ecrasante des troupes Neerlandaise en quete d'achever la soumission de l'ile de Bali. 
+8 Monas  Ce monument symbolise la lutte pour l'independance de l'Indonesie. La construction de la tour a debute en 1961 sous le gouvernement de Soekarno, le premier president de la Republique d'Indonesie, et elle fut terminee en 1975 sous le gouvernement de Soeharto deuxieme president d'Indonesie. 
+4
+9 le palais imperial de Tokyo Le palais imperial et ses jardins au centre de Tokyo se trouvent a l’ancien emplacement du chateau d’Edo. Ce chateau fort construit en 1457 devint la residence du shogun Tokugawa de la fin du 16eme siecle a 1868, a cette epoque, c’etait le centre du pouvoir et les terrains du chateau s’etendaient jusqu’a la gare de Tokyo.
+10 Le Kinkaku-ji C'est le nom usuel du Rokuon-ji situe a Kyoto au Japon. Le temple du Pavillon d'or, ou Kinkaku-ji, est situe dans le sud de l'arrondissement Kita de la ville de Kyoto, sur l'ile de Honshu, a environ 370 km, a vol d'oiseau, au sud-ouest de Tokyo, capitale du Japon.
+5 
+11 Wat Pho C'est le temple du Bouddha couche a Bangkok. Le temple Wat Pho est un des plus grands et surtout un des plus anciens temples bouddhistes de Bangkok en Thailande. Il est surtout connu pour heberger le Bouddha couche, une statue de Bouddha 45 metres de long.
+12 Wat Si Chum 
+6 
+13 Cape Agulhas Lighthouse Le phare du cap des Aiguilles (en anglais : Cape Agulhas Lighthouse) est un phare situe au cap des Aiguilles en Afrique du Sud. Le phare se trouve au point le plus meridional du continent africain. Il est aussi le point de repere officiel pour marquer le passage de l'ocean Atlantique a l'ocean Indien.
+14 Cape Town Stadium Aussi appele le  Green Point est un stade situe au Cap, en Afrique du Sud. Il est consacre au rugby a XV et au football. Sa capacite est de 55 000 places. Le stade est situe a Green Point, entre l'ocean Atlantique et la montagne de la Table, pres du centre-ville et du quartier touristique de Victoria & Alfred Waterfront.
+7
+15 Amphitheatre of El Jem L'amphitheatre d'El Jem, aussi appele Colisee de Thysdrus, est un amphitheatre romain situe dans l'actuelle ville tunisienne d'El Jem, l'antique Thysdrus de la province romaine d'Afrique.
+16 Djerbahood  C'est une manifestation d'art urbain durant laquelle des artistes du monde entier investissent le village tunisien d’Erriadh sur l'ile de Djerba pour realiser 250 œuvres creees pour l'occasion. Elle est lancee par la Galerie Itinerrance de Paris en juin. 
+8
+17 Etoile Rouge c'est un endroit tres historique a absolument visiter A Cotonou, la place de l’Etoile Rouge de Cotonou est l’une des plus marquantes de l’histoire socio-politique du Benin. Situee en plein cœur de la ville capitale economique du pays, elle est un veritable monument, symbole de l’adhesion du regime revolutionnaire a la doctrine « marxiste-leniniste ».
+18 La Porte Du Non Retour Situe pres de Ouidah au benin, ce monument historique a une histoire tres touchante en effet c'est cet endroit, que les esclaves etaient embarques sur le bateaux pour les emmener loin de leurs familles et pays.
+9
+19 La Tour CN C'est une tour de 553,33 metres situee dans le centre de Toronto, au Canada, qui est devenue l'embleme de cette ville. La tour est parfois appelee la tour du Canadien National, car la compagnie ferroviaire du Canadien National etait proprietaire de la tour.
+20 Les chutes du niagara Aussi appele chutes Niagara (toponyme officiel au Canada ) (en anglais : Niagara Falls) sont un ensemble de trois chutes d’eau situees sur la riviere Niagara qui relie le lac Erie au lac Ontario, dans l’est de l’Amerique du Nord, a la frontiere entre le Canada et les Etats-Unis : le « Fer a Cheval » (Horseshoe Falls) ou chutes canadiennes.
+10
+21 Teotihuacan C'est un important site archeologique de la vallee de Mexico, contenant certaines des plus grandes pyramides meso-americaines jamais construites en Amerique precolombienne.
+22 Monument a la Revolution C'est un monument de Mexico commemorant la revolution mexicaine. Il est situe sur la Place de la Republique, qui divise l'avenue de la Revolution entre la Promenade de la Reforme et l'avenue des Insurges.
+11
+23 statue de la liberte La Liberte eclairant le monde, ou simplement Liberte, plus connue sous le nom de statue de la Liberte, est l'un des monuments les plus celebres des Etats-Unis. Cette statue monumentale est situee a New York, sur la Liberty Island, au sud de Manhattan, a l'embouchure de l'Hudson et a proximite d'Ellis Island.
+24 Maison-blanche C'est la residence officielle et le bureau du president des Etats-Unis. Elle se situe au 1600, Pennsylvania Avenue NW a Washington. Le batiment en gres d'Aquia Creek et peint en blanc, construit entre 1792 et 1800, s'inspire du style georgien. 
+12
+25  Christ du Corcovado Le Christ Redempteur est une grande statue du Christ dominant la ville de Rio de Janeiro au Bresil, du haut du mont du Corcovado. Elle est devenue au fil des ans un des emblemes reconnus internationalement de la ville, au meme titre que le Pain de Sucre, la plage de Copacabana ou le carnaval de Rio.
+26  Les chutes d'Iguazú Ou encore chutes d'Iguassu, situees au milieu de la foret tropicale, a la frontiere entre l'Argentine et le Bresil, sont une merveille naturelle inscrite au patrimoine mondial par l'UNESCO en 1984. 
+13
+27 Karajia  Le site archeologique de Carajia ou Karajia est situe dans la foret amazonienne au Nord du Perou. Ce lieu est connu pour etre un espace funebre pour la culture pre-hispanique qui habitait cette region aux environs de 1460.
+28 Le temple Chavin de Huantar C'est un site archeologique situe a 3 177 m d'altitude dans les Andes peruviennes, qui controlait les routes commerciales vers l'ouest jusqu'au Pacifique a travers deux cols dans la cordillere Blanche et vers l'est jusqu'a l'Amazonie.
+14
+29 La habana Vieja C'est l'une des quinze municipalites de la ville de La Havane a Cuba. Contenant le centre historique de la ville, cette zone a ete reconnue au patrimoine mondial de l'UNESCO pour son « melange interessant de monuments baroques et neoclassiques », ainsi « qu'un ensemble homogene de maisons avec des arcades, des balcons, des grilles en fer forge et des cours interieures ».
+30 El Capitolio Le Capitole ou Capitole national est un edifice public de La Havane, capitale de Cuba. Il abrite le siege de l'Academie des sciences. Il est denomme ainsi en reference au Capitole des Etats-Unis a Washington, car il etait, avant la revolution de 1959, le siege du gouvernement.
+15
+31 Phare de castle point C'est un phare situe dans la localite de Castlepoint, au nord de Wellington, dans la region de Wellington, en Nouvelle-Zelande. Le phare, mis en service le 12 janvier 1913, etait a l’origine alimentee a l'huile. Il emettait un triple flash toutes les 45 secondes pouvant etre vu jusqu'a 35 kilometres. 
+32 Sky tower C'est une tour situee dans le centre-ville d'Auckland, et qui sert d'emetteur pour la radio et la television. Elle fut inauguree le 3 mars 1997 apres plus de deux ans et demi de travaux qui ont necessite quelque 15 000 m³ de beton et pres de 3 000 tonnes d'acier.
+16
+33 Opera house L’opera de Sydney, a Sydney, est l'un des plus celebres batiments du XXᵉ siecle et un haut-lieu de representation des arts notamment lyriques. Son architecture originale, qui ressemble a un voilier pour les uns, ou a un coquillage pour les autres, a ete imaginee par le Danois Jorn Utzon.
+34 Twelve Apostles The Twelve Apostles designe un regroupement d'aiguilles de calcaire depassant de l'eau en bord de mer dans le parc national de Port Campbell, le long de la route Great Ocean Road en Victoria, Australie.
+17
+35 Musee de tahiti et des iles Le musee de Tahiti et des iles, en tahitien Te Fare Manaha, est situe en Polynesie francaise, a Tahiti. Il presente des collections du patrimoine oceanien. Le musee se trouve a Punaauia, a 15 km de Papeete, a la Pointe-des-Pecheurs, pres de l'embouchure de la riviere Punaruu
+36 Le marae de Taputapuatea A Raiatea, au sud de l'ile, le marae de Taputapuatea est un des plus sacres et le plus grand de Polynesie. Sur plusieurs centaines de metres carres sont dallees pierres et galets dans du mortier de sable et de terre.
+

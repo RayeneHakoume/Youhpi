@@ -1,0 +1,185 @@
+\hypertarget{classsdlApp}{}\section{sdl\+App Class Reference}
+\label{classsdlApp}\index{sdl\+App@{sdl\+App}}
+
+
+{\ttfamily \#include $<$Image.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classsdlApp_a0046aa4ab3656c5ce0efd9a93f797b16}\label{classsdlApp_a0046aa4ab3656c5ce0efd9a93f797b16}} 
+\mbox{\hyperlink{classsdlApp_a0046aa4ab3656c5ce0efd9a93f797b16}{sdl\+App}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classsdlApp_a301afe99243cbc29effd0e0f4945ac84}\label{classsdlApp_a301afe99243cbc29effd0e0f4945ac84}} 
+\mbox{\hyperlink{classsdlApp_a301afe99243cbc29effd0e0f4945ac84}{$\sim$sdl\+App}} ()
+\begin{DoxyCompactList}\small\item\em Constructeur par defaut. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsdlApp_a535e9ab849788dcc9028383b64990744}{sdl\+Boucle}} ()
+\begin{DoxyCompactList}\small\item\em une procedure qui gere la boucle evenementielle \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsdlApp_a4efd1a7e53fc14b582d5fe0cf2dddc0b}{sdl\+Aff}} ()
+\begin{DoxyCompactList}\small\item\em une procedure qui gere l\textquotesingle{}affichage des differents etats \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsdlApp_a02c12de36e42e60a8978458ef62fa762}{sdl\+Aff\+Pays}} (int id\+Cont)
+\begin{DoxyCompactList}\small\item\em une procedure qui gere l\textquotesingle{}affichage des \mbox{\hyperlink{classPays}{Pays}} \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsdlApp_a6fadeb27ecf0fee2504d3130e911abf8}{sdl\+Aff\+Monument}} (int id\+Cont, int id\+Pays, int idM)
+\begin{DoxyCompactList}\small\item\em une procedure qui gere l\textquotesingle{}affichage des Monuments \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsdlApp_a54d9cd6155163835380a535ca257e5b4}{sdl\+Aff\+Cont}} ()
+\begin{DoxyCompactList}\small\item\em une procedure qui gere l\textquotesingle{}affichage des Monuments \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsdlApp_ae4db12d802dc7b8dd0a6b284897917bf}{sdl\+Ecrire}} (int x, int y, int w, int h, int r, int g, int b, const char $\ast$texte)
+\begin{DoxyCompactList}\small\item\em procedure permettant d\textquotesingle{}ecrire du texte aux coordonnees\+: x,y,w,h et de la couleur\+: r,g,b sur la fenetre sdl \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classsdlApp_a8ccb9775a7ef085eec26a60f4564d3bd}{sdl\+Ecrire\+Avec\+Rect}} (int x, int y, int w, int h, int r, int g, int b, const char $\ast$texte)
+\begin{DoxyCompactList}\small\item\em procedure permettant d\textquotesingle{}ecrire du texte aux coordonnees\+: x,y,w,h et de la couleur\+: r,g,b sur la fenetre sdl et de dessiner un rectangle \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classApplication}{Application}} \mbox{\hyperlink{classsdlApp_a721d26218fa45ca53705f1dbbee8dfba}{ap}}
+\begin{DoxyCompactList}\small\item\em fonctions membres \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+La classe grant le jeu avec un affichage S\+DL 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classsdlApp_a4efd1a7e53fc14b582d5fe0cf2dddc0b}\label{classsdlApp_a4efd1a7e53fc14b582d5fe0cf2dddc0b}} 
+\index{sdl\+App@{sdl\+App}!sdl\+Aff@{sdl\+Aff}}
+\index{sdl\+Aff@{sdl\+Aff}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{sdl\+Aff()}{sdlAff()}}
+{\footnotesize\ttfamily void sdl\+App\+::sdl\+Aff (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+une procedure qui gere l\textquotesingle{}affichage des differents etats 
+
+Nous allons afficher le menu\+: 1er choix
+
+2e choix\+: \mbox{\Hypertarget{classsdlApp_a54d9cd6155163835380a535ca257e5b4}\label{classsdlApp_a54d9cd6155163835380a535ca257e5b4}} 
+\index{sdl\+App@{sdl\+App}!sdl\+Aff\+Cont@{sdl\+Aff\+Cont}}
+\index{sdl\+Aff\+Cont@{sdl\+Aff\+Cont}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{sdl\+Aff\+Cont()}{sdlAffCont()}}
+{\footnotesize\ttfamily void sdl\+App\+::sdl\+Aff\+Cont (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+une procedure qui gere l\textquotesingle{}affichage des Monuments 
+
+Declaration des variables\+: \mbox{\Hypertarget{classsdlApp_a6fadeb27ecf0fee2504d3130e911abf8}\label{classsdlApp_a6fadeb27ecf0fee2504d3130e911abf8}} 
+\index{sdl\+App@{sdl\+App}!sdl\+Aff\+Monument@{sdl\+Aff\+Monument}}
+\index{sdl\+Aff\+Monument@{sdl\+Aff\+Monument}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{sdl\+Aff\+Monument()}{sdlAffMonument()}}
+{\footnotesize\ttfamily void sdl\+App\+::sdl\+Aff\+Monument (\begin{DoxyParamCaption}\item[{int}]{id\+Cont,  }\item[{int}]{id\+Pays,  }\item[{int}]{idM }\end{DoxyParamCaption})}
+
+
+
+une procedure qui gere l\textquotesingle{}affichage des Monuments 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em iD} & du contient, du pays et du monument\+: entier \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsdlApp_a02c12de36e42e60a8978458ef62fa762}\label{classsdlApp_a02c12de36e42e60a8978458ef62fa762}} 
+\index{sdl\+App@{sdl\+App}!sdl\+Aff\+Pays@{sdl\+Aff\+Pays}}
+\index{sdl\+Aff\+Pays@{sdl\+Aff\+Pays}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{sdl\+Aff\+Pays()}{sdlAffPays()}}
+{\footnotesize\ttfamily void sdl\+App\+::sdl\+Aff\+Pays (\begin{DoxyParamCaption}\item[{int}]{id\+Cont }\end{DoxyParamCaption})}
+
+
+
+une procedure qui gere l\textquotesingle{}affichage des \mbox{\hyperlink{classPays}{Pays}} 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em iD} & du contient\+: entier \\
+\hline
+\end{DoxyParams}
+Declaration des variables\+: \mbox{\Hypertarget{classsdlApp_a535e9ab849788dcc9028383b64990744}\label{classsdlApp_a535e9ab849788dcc9028383b64990744}} 
+\index{sdl\+App@{sdl\+App}!sdl\+Boucle@{sdl\+Boucle}}
+\index{sdl\+Boucle@{sdl\+Boucle}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{sdl\+Boucle()}{sdlBoucle()}}
+{\footnotesize\ttfamily void sdl\+App\+::sdl\+Boucle (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+une procedure qui gere la boucle evenementielle 
+
+Lorsqu\textquotesingle{}on clique pour acceder a l\textquotesingle{}application\+:
+
+Lorsqu\textquotesingle{}on est dans le menu\+:
+
+1er choix\+: Visiter
+
+2nd choix\+: Partager
+
+Lorsqu\textquotesingle{}on appuie sur le continent0\+:
+
+Lorsqu\textquotesingle{}on appuie sur le continent1\+:
+
+Lorsqu\textquotesingle{}on appuie sur le continent2\+:
+
+Lorsqu\textquotesingle{}on appuie sur le continent3\+:
+
+Lorsqu\textquotesingle{}on appuie sur le continent4\+:
+
+Lorsqu\textquotesingle{}on appuie sur le continent5\+:
+
+Lorsq\textquotesingle{}on appuie sur le pays0\+:
+
+Lorsq\textquotesingle{}on appuie sur le pays1\+:
+
+Lorsq\textquotesingle{}on appuie sur le pays2\+:
+
+Lorsq\textquotesingle{}on appuie sur le pays3\+:
+
+Lorsq\textquotesingle{}on appuie sur le pays4\+:
+
+Lorsq\textquotesingle{}on appuie sur le pays5\+:
+
+fin du deuxieme while ouvert
+
+fin du premier while ouvert \mbox{\Hypertarget{classsdlApp_ae4db12d802dc7b8dd0a6b284897917bf}\label{classsdlApp_ae4db12d802dc7b8dd0a6b284897917bf}} 
+\index{sdl\+App@{sdl\+App}!sdl\+Ecrire@{sdl\+Ecrire}}
+\index{sdl\+Ecrire@{sdl\+Ecrire}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{sdl\+Ecrire()}{sdlEcrire()}}
+{\footnotesize\ttfamily void sdl\+App\+::sdl\+Ecrire (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{w,  }\item[{int}]{h,  }\item[{int}]{r,  }\item[{int}]{g,  }\item[{int}]{b,  }\item[{const char $\ast$}]{texte }\end{DoxyParamCaption})}
+
+
+
+procedure permettant d\textquotesingle{}ecrire du texte aux coordonnees\+: x,y,w,h et de la couleur\+: r,g,b sur la fenetre sdl 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em x,y,w,h,r,g,b} & entiers ; texte\+: chaine de caractere \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classsdlApp_a8ccb9775a7ef085eec26a60f4564d3bd}\label{classsdlApp_a8ccb9775a7ef085eec26a60f4564d3bd}} 
+\index{sdl\+App@{sdl\+App}!sdl\+Ecrire\+Avec\+Rect@{sdl\+Ecrire\+Avec\+Rect}}
+\index{sdl\+Ecrire\+Avec\+Rect@{sdl\+Ecrire\+Avec\+Rect}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{sdl\+Ecrire\+Avec\+Rect()}{sdlEcrireAvecRect()}}
+{\footnotesize\ttfamily void sdl\+App\+::sdl\+Ecrire\+Avec\+Rect (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{w,  }\item[{int}]{h,  }\item[{int}]{r,  }\item[{int}]{g,  }\item[{int}]{b,  }\item[{const char $\ast$}]{texte }\end{DoxyParamCaption})}
+
+
+
+procedure permettant d\textquotesingle{}ecrire du texte aux coordonnees\+: x,y,w,h et de la couleur\+: r,g,b sur la fenetre sdl et de dessiner un rectangle 
+
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em x,y,w,h,r,g,b} & entiers ; texte\+: chaine de caractere \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classsdlApp_a721d26218fa45ca53705f1dbbee8dfba}\label{classsdlApp_a721d26218fa45ca53705f1dbbee8dfba}} 
+\index{sdl\+App@{sdl\+App}!ap@{ap}}
+\index{ap@{ap}!sdl\+App@{sdl\+App}}
+\subsubsection{\texorpdfstring{ap}{ap}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classApplication}{Application}} sdl\+App\+::ap}
+
+
+
+fonctions membres 
+
+une \mbox{\hyperlink{classApplication}{Application}} 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Image.\+h\item 
+src/Image.\+cpp\end{DoxyCompactItemize}
